@@ -1,14 +1,14 @@
 import math
 def isprime(n):
-    m=2
+    k=2
     if n<2:
         return False
     else:
-        while m <= math.sqrt(n) :
-            if n % m == 0 :
+        while k <= math.sqrt(n) :
+            if n % k == 0 :
                 return False
             else:
-                m=m+1
+                k=k+1
         return True
     
 
