@@ -1,4 +1,6 @@
 import math
+
+
 def isprime(n):
     k=2
     if n<2:
